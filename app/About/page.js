@@ -1,4 +1,4 @@
-import Hero from "@/Components/Hero";
+import Hero from "../../Components/Hero.jsx";
 
 
 export const metadata = {

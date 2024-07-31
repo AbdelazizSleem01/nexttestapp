@@ -1,6 +1,6 @@
 import {getPosts} from "../../helpers/api"
 
-import Hero from "../../components/Hero"
+import Hero from "../../Components/Hero.jsx"
 import Post from "../../components/Posts.jsx";
 
 export default async function Blog() {
