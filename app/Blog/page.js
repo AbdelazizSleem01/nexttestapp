@@ -1,7 +1,7 @@
 import {getPosts} from "../../helpers/api"
 
 import Hero from "../../Components/Hero.jsx"
-import Post from "../../components/Posts";
+import Post from "../../components/Posts.jsx";
 
 export default async function Blog() {
     const posts = await getPosts();
