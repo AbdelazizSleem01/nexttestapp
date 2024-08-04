@@ -1,7 +1,7 @@
 import {getSlug} from "../helpers/Slugify.js"
 import Link from "next/link";
 
-export default function post ({post}) {
+export default function Post ({post}) {
     return (
         <>
             <article className="flex flex-col dark:bg-gra0">
